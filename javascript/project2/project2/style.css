@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+h1{
+    background-color: rgb(138, 138, 228);
+    color: white;
+    text-align: center;
+    margin-top: 3rem;
+    height: 5rem;
+    line-height: 5rem;
+}
+.choice{
+   height: 100px;
+   width: 100px;
+
+}
+img{
+    height: 140px;
+   width: 140px;
+   object-fit: cover;
+   border-radius: 50%;
+   border: rgb(32, 45, 116) 5px solid;
+
+}
+.choices{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    justify-content: center;
+    margin-top: 2rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.choice:hover{
+    opacity: 0.8;
+    background-color: rgb(129, 115, 207);
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(38, 0, 255);
+    margin-top: 10rem;
+    font-size: 2.5rem;
+    gap: 5rem;
+}
+#user-score,
+#comp-score{
+      font-size:4rem ;
+      /* display: flex; */
+      justify-content: center;
+      align-items: center;
+      margin-left: 1rem;
+
+}
+#msg{
+    background-color: red;
+    color: white;
+    margin-top: 22rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 2rem;
+    font-weight: bold;
+    height: 5rem;
+    width: 20rem;
+    border-radius: 10px;
+
+
+
+
+}
+
+
+    
+    /* font-size: 0.5rem;
+    margin-top: 2rem;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 0, 0);
